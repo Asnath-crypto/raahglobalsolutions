@@ -1,0 +1,187 @@
+# Query: #FFD44A
+# ContextLines: 1
+
+68 results - 1 file
+
+assets/css/theme.min.css:
+     24  	--ar-gray-900: #121519;
+     25: 	--ar-primary: #efa023;
+     26  	--ar-secondary: #edf1f5;
+     27: 	--ar-success: #efa023;
+     28  	--ar-info: #3f7fca;
+
+     64  	--ar-border-radius-pill: 50rem;
+     65: 	--ar-link-color: #efa023;
+     66: 	--ar-link-hover-color: #efa023;
+     67  	--ar-code-color: #e3116c;
+
+   2828  .form-check-input[type=checkbox]:indeterminate {
+   2829: 	background-color: #efa023;
+   2830: 	border-color: #efa023;
+   2831  	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e")
+
+   3209  	font-size: calc(var(--ar-body-font-size) * 0.75);
+   3210: 	color: #efa023;
+   3211  }
+
+   3222  	color: #000;
+   3223: 	background-color: #efa023;
+   3224  	border-radius: calc(var(--ar-border-radius)*.5)
+
+   3235  .form-control.is-valid {
+   3236: 	border-color: #efa023;
+   3237  	padding-right: calc(1.4em + 1.65rem);
+
+   3245  .form-control.is-valid:focus {
+   3246: 	border-color: #efa023;
+   3247: 	box-shadow: 0 0 0 0 #FFD44A;
+   3248  }
+
+   3257  .form-select.is-valid {
+   3258: 	border-color: #efa023;
+   3259  }
+
+   3272  .form-select.is-valid:focus {
+   3273: 	border-color: #efa023;
+   3274: 	box-shadow: 0 0 0 0 #efa023;
+   3275  }
+
+   3283  .form-check-input.is-valid {
+   3284: 	border-color: #efa023;
+   3285  }
+
+   3288  .form-check-input.is-valid:checked {
+   3289: 	background-color: #efa023;
+   3290  }
+
+   3293  .form-check-input.is-valid:focus {
+   3294: 	box-shadow: 0 0 0 0 #efa023;
+   3295  }
+
+   3298  .form-check-input.is-valid~.form-check-label {
+   3299: 	color: #efa023;
+   3300  }
+
+   3523  	--ar-btn-color: #000;
+   3524: 	--ar-btn-bg: #efa023;
+   3525: 	--ar-btn-border-color: #efa023;
+   3526  	--ar-btn-hover-color: #000;
+   3527: 	--ar-btn-hover-bg: #efa023;
+   3528: 	--ar-btn-hover-border-color: #efa023;
+   3529  	--ar-btn-focus-shadow-rgb: 58, 119, 99;
+   3530  	--ar-btn-active-color: #000;
+   3531: 	--ar-btn-active-bg: #efa023;
+   3532: 	--ar-btn-active-border-color: #efa023;
+   3533  	--ar-btn-active-shadow: unset;
+   3534  	--ar-btn-disabled-color: #000;
+   3535: 	--ar-btn-disabled-bg: #efa023;
+   3536  	--ar-btn-disabled-border-color: #448c74
+
+   3557  	--ar-btn-color: #000;
+   3558: 	--ar-btn-bg: #efa023;
+   3559: 	--ar-btn-border-color: #efa023;
+   3560  	--ar-btn-hover-color: #000;
+   3561: 	--ar-btn-hover-bg: #efa023;
+   3562: 	--ar-btn-hover-border-color: #efa023;
+   3563  	--ar-btn-focus-shadow-rgb: 54, 172, 122;
+   3564  	--ar-btn-active-color: #000;
+   3565: 	--ar-btn-active-bg: #efa023;
+   3566: 	--ar-btn-active-border-color: #efa023;
+   3567  	--ar-btn-active-shadow: unset;
+   3568  	--ar-btn-disabled-color: #000;
+   3569: 	--ar-btn-disabled-bg: #efa023;
+   3570  	--ar-btn-disabled-border-color: #3fca90
+
+   3660  .btn-outline-primary {
+   3661: 	--ar-btn-color: #efa023;
+   3662: 	--ar-btn-border-color: #efa023;
+   3663  	--ar-btn-hover-color: #000;
+   3664: 	--ar-btn-hover-bg: #efa023;
+   3665: 	--ar-btn-hover-border-color: #efa023;
+   3666  	--ar-btn-focus-shadow-rgb: 68, 140, 116;
+   3667  	--ar-btn-active-color: #000;
+   3668: 	--ar-btn-active-bg: #efa023;
+   3669: 	--ar-btn-active-border-color: #efa023;
+   3670  	--ar-btn-active-shadow: unset;
+   3671: 	--ar-btn-disabled-color: #efa023;
+   3672  	--ar-btn-disabled-bg: transparent;
+   3673: 	--ar-btn-disabled-border-color: #efa023;
+   3674  	--ar-gradient: none
+
+   3694  .btn-outline-success {
+   3695: 	--ar-btn-color: #efa023;
+   3696: 	--ar-btn-border-color: #efa023;
+   3697  	--ar-btn-hover-color: #000;
+   3698: 	--ar-btn-hover-bg: #efa023;
+   3699: 	--ar-btn-hover-border-color: #efa023;
+   3700  	--ar-btn-focus-shadow-rgb: 63, 202, 144;
+   3701  	--ar-btn-active-color: #000;
+   3702: 	--ar-btn-active-bg: #efa023;
+   3703: 	--ar-btn-active-border-color: #efa023;
+   3704  	--ar-btn-active-shadow: unset;
+   3705: 	--ar-btn-disabled-color: #efa023;
+   3706  	--ar-btn-disabled-bg: transparent;
+   3707: 	--ar-btn-disabled-border-color: #efa023;
+   3708  	--ar-gradient: none
+
+   5388  	--ar-pagination-focus-bg: transparent;
+   5389: 	--ar-pagination-focus-box-shadow: 0 0 0 0 #efa023;
+   5390  	--ar-pagination-active-color: var(--ar-gray-900);
+
+   5544  .alert-primary {
+   5545: 	--ar-alert-color: #efa023;
+   5546  	--ar-alert-bg: #ecf4f1;
+
+   5550  .alert-primary .alert-link {
+   5551: 	color: #efa023;
+   5552  }
+
+   5564  .alert-success {
+   5565: 	--ar-alert-color: #efa023;
+   5566  	--ar-alert-bg: #ecfaf4;
+
+   5570  .alert-success .alert-link {
+   5571: 	color: #efa023;
+   5572  }
+
+   5636  	--ar-progress-bar-color: #fff;
+   5637: 	--ar-progress-bar-bg: #efa023;
+   5638  	--ar-progress-bar-transition: width 0.6s ease;
+
+   7524  .link-primary {
+   7525: 	color: #efa023; !important
+   7526  }
+
+   7529  .link-primary:focus {
+   7530: 	color: #efa023;!important
+   7531  }
+
+   7542  .link-success {
+   7543: 	color: #efa023;!important
+   7544  }
+
+   7547  .link-success:focus {
+   7548: 	color: #efa023;!important
+   7549  }
+
+  16086  	background-color: rgba(63, 202, 144, .1);
+  16087: 	color: #efa023;
+  16088  }
+
+  16264  	background-color: rgba(63, 202, 144, .1);
+  16265: 	color: #efa023;
+  16266  }
+
+  16437  	--ar-btn-active-color: #fff;
+  16438: 	--ar-btn-hover-bg: #efa023;
+  16439: 	--ar-btn-active-bg: #efa023;
+  16440: 	--ar-btn-hover-border-color: #efa023;
+  16441: 	--ar-btn-active-border-color: #efa023;
+  16442  	--ar-btn-disabled-color: #fff
+
+  16457  	--ar-btn-active-color: #fff;
+  16458: 	--ar-btn-hover-bg: #efa023;
+  16459: 	--ar-btn-active-bg: #efa023;
+  16460: 	--ar-btn-hover-border-color: #efa023;
+  16461: 	--ar-btn-active-border-color: #efa023;
+  16462  	--ar-btn-disabled-color: #fff
