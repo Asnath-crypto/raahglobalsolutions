@@ -508,14 +508,15 @@ body {
 }
 
 .why-main-image {
-  width: 100%;
-  height: auto;
+  width: 85%;
+  height: 85%;
   border-radius: 24px;
   object-fit: cover;
   display: block;
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
 }
 
+/* Desktop / Mobile switch */
 .why-desktop-image {
   display: block;
 }
@@ -753,28 +754,29 @@ body {
         </div>
       </div>
 
-    <!-- Mobile Menu -->
-<div class="mobile-menu-overlay" id="mobileMenu">
-  <div class="mobile-menu-top">
-    <a class="mobile-brand" href="index.html">
-      <img src="assets/img/logo/raah2.png" alt="Raah Global Solutions" class="mobile-logo">
-    </a>
+      <!-- Mobile Menu -->
+      <div class="mobile-menu-overlay" id="mobileMenu">
+        <div class="mobile-menu-top">
+          <a class="mobile-brand" href="index.html">
+            <img src="assets/img/logo/raah2.png" alt="Raah Global Solutions" class="mobile-logo">
+          </a>
 
-    <button class="menu-close" id="menuClose" aria-label="Close menu" type="button">
-      <span></span>
-      <span></span>
-    </button>
-  </div>
+          <button class="menu-close" id="menuClose" aria-label="Close menu" type="button">
+            <span></span>
+            <span></span>
+          </button>
+        </div>
 
-  <div class="mobile-menu-content">
-    <a href="index.html" class="mobile-link active">Home</a>
-    <a href="#about" class="mobile-link">About Us</a>
-    <a href="#services" class="mobile-link">Services</a>
-    <a href="#contact" class="mobile-link">Contact</a>
-    <a href="#contact" class="mobile-cta">Get in Touch</a>
-  </div>
-</div>
-      
+        <div class="mobile-menu-content">
+          <a href="index.html" class="mobile-link active">Home</a>
+          <a href="about.html" class="mobile-link">About Us</a>
+          <a href="services.html" class="mobile-link">Services</a>
+          <a href="contact.html" class="mobile-link">Contact</a>
+          <a href="contact.html" class="mobile-cta">Get in Touch</a>
+        </div>
+      </div>
+    </header>
+
     <!-- Hero -->
     <section class="jarallax min-vh-100 py-lg-3 py-xl-4 py-xxl-5" data-jarallax data-speed="0.65">
       <div class="jarallax-img" style="background-image: url(assets/img/landing/corporate/hero-bg4.JPG);"></div>
@@ -1039,6 +1041,7 @@ body {
 <!-- Why Choose Us -->
 <section class="why-raah-premium py-5 my-lg-5">
   <div class="container">
+
     <div class="why-raah-box">
 
       <div class="row align-items-center g-5">
@@ -1056,6 +1059,7 @@ body {
           </p>
 
           <div class="why-list">
+
             <div class="why-list-item">
               <span class="why-check">01</span>
               <div>
@@ -1079,36 +1083,36 @@ body {
                 <p>Focused on real, measurable and sustainable results.</p>
               </div>
             </div>
+
           </div>
         </div>
 
         <!-- RIGHT -->
-        <div class="col-lg-7" data-aos="fade-left">
-          <div class="why-visual-wrap">
+<div class="col-lg-7" data-aos="fade-left">
+  <div class="why-visual-wrap">
 
-            <!-- Desktop -->
-            <img src="assets/img/why/farmgirl.PNG"
-                 class="img-fluid why-main-image why-desktop-image"
-                 alt="Why choose Raah">
+    <!-- Desktop -->
+    <img src="assets/img/why/farmgirl.PNG"
+         class="img-fluid why-main-image why-desktop-image"
+         alt="Why choose Raah">
 
-            <!-- Mobile -->
-            <img src="assets/img/why/farmgirl2.png"
-                 class="img-fluid why-main-image why-mobile-image"
-                 alt="Why choose Raah mobile">
+    <!-- Mobile -->
+    <img src="assets/img/why/farmgirl2.png"
+         class="img-fluid why-main-image why-mobile-image"
+         alt="Why choose Raah mobile">
 
-            <!-- Floating Card -->
-            <div class="why-floating-card" data-aos="zoom-in" data-aos-delay="200">
-              <h4>Trusted Expertise</h4>
-              <p>Research, implementation, and sustainable growth support.</p>
-            </div>
+    <!-- Floating Card -->
+    <div class="why-floating-card" data-aos="zoom-in" data-aos-delay="200">
+      <h4>Trusted Expertise</h4>
+      <p>Research, implementation, and sustainable growth support.</p>
+    </div>
 
-          </div>
-        </div>
-
-      </div>
+  </div>
+</div>
 
       <!-- Bottom Cards -->
       <div class="row g-4 mt-5">
+
         <div class="col-md-4">
           <div class="why-card">
             <h5>Strategic Location</h5>
@@ -1129,9 +1133,11 @@ body {
             <p>We work closely with clients and communities.</p>
           </div>
         </div>
+
       </div>
 
     </div>
+
   </div>
 </section>
 
@@ -1314,5 +1320,7 @@ body {
       });
     }
   </script>
+
+  
 </body>
 </html>
